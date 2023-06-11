@@ -3,6 +3,7 @@ import webbrowser
 from generators import *
 from tkinter import messagebox
 
+
 class App:
     def __init__(self, master):
         self.master = master
