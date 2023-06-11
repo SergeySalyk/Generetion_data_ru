@@ -1,0 +1,29 @@
+# Generated files
+/dist/
+/venv/
+__pycache__/
+
+# IDE specific files
+.idea/
+
+# Temporary files
+tmp/
+temp/
+
+# Backup files
+backup/
+backups/
+
+# Large data files
+data/
+dataset/
+
+# Secret files
+secret/
+secrets/
+
+# Other specific files
+/app.spec
+/icon.png
+/README.md
+/requirements.txt
