@@ -25,6 +25,7 @@ class App:
             ("Город", generate_name_city),
             ("KPP", generate_kpp),
             ("Телефон", generate_phone),
+            ("GUID", generate_guid),
         ]
 
         self.result_texts = []

@@ -2,6 +2,7 @@ from faker import Faker
 from random import randrange, randint
 import random
 from datetime import date, timedelta
+import uuid
 
 fake = Faker(['ru_RU'])
 Faker.seed(randint(2, 1000))
@@ -117,3 +118,7 @@ def generate_date_adult():
     max_birthdate = current_date - timedelta(days=min_age*365)
     birthdate = current_date - timedelta(days=randint(min_age*365, max_age*365))
     return birthdate.strftime("%d.%m.%Y")
+
+
+def generate_guid():
+    return str(uuid.uuid4())
